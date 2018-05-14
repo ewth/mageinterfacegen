@@ -14,7 +14,6 @@ namespace My\App\Namespace;
 
 interface NewInterface extends \Magento\Framework\Api\ExtensibleDataInterface
 {
-
     const KEY_FIRST_ITEM = 'first_item';
     const KEY_SECOND_ITEM = 'secondItem';
     const THIRD_ITEM = 'third_item';

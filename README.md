@@ -21,3 +21,110 @@ interface NewInterface extends \Magento\Framework\Api\ExtensibleDataInterface
 }
 
 ```
+Which will lead to:
+
+```
+Processing NewInterface
+
+
+-------------- begin interface --------------
+
+    /**
+     * @param string $firstItem
+     * @return $this
+     */
+    public function setFirstItem($firstItem);
+
+    /**
+     * @return string
+     */
+    public function getFirstItem();
+
+    /**
+     * @param string $secondItem
+     * @return $this
+     */
+    public function setSecondItem($secondItem);
+
+    /**
+     * @return string
+     */
+    public function getSecondItem();
+
+    /**
+     * @param string $thirdItem
+     * @return $this
+     */
+    public function setThirdItem($thirdItem);
+
+    /**
+     * @return string
+     */
+    public function getThirdItem();
+
+
+
+-------------- end interface --------------
+
+**** When you've copied the above, press enter to generate the domain model
+
+ 
+
+
+-------------- begin model --------------
+
+    /**
+     * @param string $firstItem
+     * @return $this
+     */
+    public function setFirstItem($firstItem)
+    {
+        return $this->setData(self::KEY_FIRST_ITEM, $firstItem);
+    }
+
+    /**
+     * @return string
+     */
+    public function getFirstItem()
+    {
+        return $this->getData(self::KEY_FIRST_ITEM);
+    }
+
+    /**
+     * @param string $secondItem
+     * @return $this
+     */
+    public function setSecondItem($secondItem)
+    {
+        return $this->setData(self::KEY_SECOND_ITEM, $secondItem);
+    }
+
+    /**
+     * @return string
+     */
+    public function getSecondItem()
+    {
+        return $this->getData(self::KEY_SECOND_ITEM);
+    }
+
+    /**
+     * @param string $thirdItem
+     * @return $this
+     */
+    public function setThirdItem($thirdItem)
+    {
+        return $this->setData(self::THIRD_ITEM, $thirdItem);
+    }
+
+    /**
+     * @return string
+     */
+    public function getThirdItem()
+    {
+        return $this->getData(self::THIRD_ITEM);
+    }
+
+
+
+-------------- end model --------------
+```

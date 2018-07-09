@@ -31,7 +31,7 @@ if (!file_exists($filePath)) {
 $data = file_get_contents($filePath);
 $data = str_replace("\r\n", "\n", $data); // Grumble grumble Windows grumble
 
-if (empty($data) || !preg_match('#interface (.[^ \n]+)#', $data, $matches)) {
+if (empty($data) || !preg_match('#\ninterface (.[^ \n]+)#', $data, $matches)) {
     die("Interface could not be detected.\n");
 }
 

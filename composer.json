@@ -2,7 +2,7 @@
   "name": "ewan-tho/mageinterfacegen",
   "description": "Interface and model generator for Magento 2",
   "author": "Ewan Thompson",
-  "version": "0.1",
+  "version": "0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/ewan-tho/mageinterfacegen"

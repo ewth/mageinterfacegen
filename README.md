@@ -1,3 +1,6 @@
+# Note
+This package has been incorporated into [magegen](https://github.com/ewan-tho/magegen). You can still use it as an example or point of interest, but since v0.2, it will no longer work as standalone.
+
 # mageinterfacegen
 Interface and model generator for Magento 2
 

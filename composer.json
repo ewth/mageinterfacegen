@@ -1,11 +1,11 @@
 {
-  "name": "ewan-tho/mageinterfacegen",
+  "name": "ewth/mageinterfacegen",
   "description": "Interface and model generator for Magento 2",
   "author": "Ewan Thompson",
   "version": "0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ewan-tho/mageinterfacegen"
+    "url": "https://github.com/ewth/mageinterfacegen"
   },
   "keywords": ["magento","magento2","php","scripts","automation","interface"]
 }
